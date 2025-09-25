@@ -1,0 +1,7 @@
+- Initialize git
+- Add dmenv, .env to .gitignore
+- Add requirements.txt
+- Create a virtual environment using "python -m venv dmenv"
+- Activate the environment using "./dmenv/Scripts/activate"
+- Install packages using "pip install -r requirements.txt"
+- Create .env to store secrets
