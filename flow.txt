@@ -6,3 +6,4 @@
 - Install packages using "pip install -r requirements.txt"
 - Create .env to store secrets
 - Create train.py
+- Add routes.py
