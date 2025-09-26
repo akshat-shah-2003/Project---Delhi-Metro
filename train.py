@@ -20,7 +20,7 @@ class Train(threading.Thread):
         for i in range(len(self.route) - 1):
             start = self.route[i]['coords']
             end = self.route[i+1]['coords']
-            duration = self.route[i]['duration']
+            duration = self.route[i]['duration_to_next']
 
             steps = duration
             points = interpolate_points(start, end, steps)
