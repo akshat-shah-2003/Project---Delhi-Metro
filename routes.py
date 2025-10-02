@@ -54,7 +54,7 @@ routeC = [
   { "name": "Kashmere Gate", "coords": (28.6560, 77.2410), "duration_to_next": 55 },
   { "name": "Lal Qila", "coords": (28.6569, 77.2325), "duration_to_next": 45 },
   { "name": "Jama Masjid", "coords": (28.6529, 77.2330), "duration_to_next": 53 },
-  { "name": "Delhi Gate", "coords": (28.6500, 77.2365), "duration": 105 },
+  { "name": "Delhi Gate", "coords": (28.6500, 77.2365), "duration_to_next": 105 },
   { "name": "ITO", "coords": (28.6346, 77.2315), "duration_to_next": 113 },
   { "name": "Mandi House", "coords": (28.6225, 77.2177), "duration_to_next": 78 },
   { "name": "Janpath", "coords": (28.6190, 77.2085), "duration_to_next": 55 },
