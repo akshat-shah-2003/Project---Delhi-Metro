@@ -1,4 +1,5 @@
 import time
+import json
 import threading
 import numpy as np
 
@@ -31,6 +32,8 @@ class Train(threading.Thread):
                     break
                 #self.position = point
                 self.position = float(point[0]), float(point[1])
+                with open(f"{self.train_id}_pos.json", "w") as f:
+                    json.dump({"train_id": self.train_id, "position": self.position}, f)
                 print(f"Train {self.train_id} is at position {self.position}.")
                 time.sleep(1)
 

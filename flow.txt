@@ -7,3 +7,4 @@
 - Create .env to store secrets
 - Create train.py
 - Add routes.py
+- create app.py
